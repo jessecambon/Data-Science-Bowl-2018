@@ -1,0 +1,1 @@
+Using standard 'accuracy' metric results in very slow progress around ~0.1 loss, 95% accuracy.

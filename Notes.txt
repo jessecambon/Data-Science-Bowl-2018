@@ -1,9 +1,0 @@
-Using standard 'accuracy' metric results in very slow progress around ~0.1 loss, 95% accuracy.
-
-2-16-2018: Dropout 0.25, 45 filters, 8 layers, max dilation 16 
-	-> got to about 0.07 BCE loss after 10ish epochs, stumbled around a lot..
-Now running 0.2 dropout, 30 filters, 8 layers, max dilation 16 
-	-> running faster... ~5min per epoch ~0.07 BCE after 10 epochs. 0.62 final, LB .285, not bad
-MeshNet 13 -> Changed to 15 filters, 0.1 dropout. Prob will do worse. but how much worse?
-	-> struggling to get past 0.087 loss. turns out you need those filters
-	-> bumped it up to 20 filters and got 0.077 loss as epoch 12. 2.5 min epochs. 0.07 loss at 17 epochs

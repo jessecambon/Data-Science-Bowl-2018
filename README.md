@@ -19,7 +19,7 @@ https://www.kaggle.com/c/data-science-bowl-2018/data
 ### For Use on Google Collab
 
 - [augmesh_v1_colab.ipynb](augmesh_v1_colab.ipynb)
-- [unet_google_colab.ipynb](unet_google_colab.ipynb)
+- [unet_google_colab.ipynb](unet_google_colab.ipynb) - an implemntation of a [U-net approach](https://arxiv.org/abs/1505.04597)
 
 
 ### From Kaggle
